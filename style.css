@@ -1,0 +1,27 @@
+    #pixel-grid-container {
+        display: grid;
+        grid-template-columns: repeat(30, 1fr); /* Example for a 30x30 grid */
+        border: 1px solid black;
+        width: 300px; /* Adjust as needed */
+        height: 300px; /* Adjust as needed */
+    }
+
+    .pixel {
+        width: 10px; /* Example pixel size */
+        height: 10px; /* Example pixel size */
+        background-color: white; /* Default background */
+        border: 0.5px solid #eee; /* Optional subtle border */
+    }
+
+    #pixelCanvas {
+        border: 2px solid black;
+    }
+
+        .color-swatch {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        display: inline-block;
+        margin: 5px;
+    }
